@@ -1,0 +1,25 @@
+
+entity_names_list = [
+   "INVOICE_NUMBER",
+   "INVOICE_DATE",
+   "COMPANY_NAME",
+   "INVOICE_AMOUNT",
+   "CURRENCY",
+   "REMIT_TO_ADDRESS_STREET",
+   "REMIT_TO_ADDRESS_CITY",
+   "REMIT_TO_ADDRESS_STATE",
+   "REMIT_TO_ADDRESS_COUNTRY",
+   "REMIT_TO_ADDRESS_ZIP_CODE",
+   "REMIT_TO_ADDRESS_OTHERS",
+   "SHIP_TO_ADDRESS_STREET",
+   "SHIP_TO_ADDRESS_CITY",
+   "SHIP_TO_ADDRESS_STATE",
+   "SHIP_TO_ADDRESS_COUNTRY",
+   "SHIP_TO_ADDRESS_ZIP_CODE",
+   "SHIP_TO_ADDRESS_OTHERS",
+]
+
+global_entities = {}
+for entity in entity_names_list:
+    global_entities[entity] = 0
+global_entities
